@@ -35,10 +35,48 @@ nav.nav-center ul li a {
   text-align:center;
 }
 
+.footerAbout{
+  background-color:#2686C5;
+  color:#FBFAF9;
+  padding:5px;
+  display:inline;
+}
+
+.footerAbout p a{
+  color:#FBFAF9;
+}
+
+.footerAbout svg{
+  width:25%;
+  height:25%;
+}
+
 .body{
   background-color:#FBFAF9;
 }
 
 .row{
   margin:0;
+}
+
+
+.socialmedia li {
+  /*Creates Horizontal List:*/
+  display: inline-block;
+  zoom:1;
+  *display:inline;
+  /*Provides proper spacing for each item.*/
+  margin: 0px 5% 0px 5%;
+
+}
+
+.socialmedia li  a{
+  /*Changes color of icon:*/
+  color:#4BA6DC;
+}
+
+.socialmedia li a svg{
+  /*Changes size of icon:*/
+  width:200%;
+  height:155%;
 }
