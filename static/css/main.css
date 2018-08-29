@@ -1,0 +1,26 @@
+nav {
+  background-color:#4BA6DC;
+  padding:0;
+  margin:0;
+}
+
+nav.nav-center ul {
+  text-align: center;
+}
+nav.nav-center ul li {
+  display: inline;
+  float: none;
+}
+nav.nav-center ul li a {
+  display: inline-block;
+}
+
+.header{
+  background-color:#4BA6DC;
+  color:#FBFAF9;
+}
+
+.footer{
+  background-color:#4BA6DC;
+  color:#FBFAF9;
+}
