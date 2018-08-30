@@ -2,8 +2,9 @@ h1,h2,h3,h4,h5{
   font-family: 'Lora','Materalize Icon','serif';
 }
 
-p,a{
+p,a {
   font-family:'Scope One','serif';
+  color:black;
 }
 
 nav {
@@ -27,30 +28,6 @@ nav.nav-center ul li a {
   background-color:#4BA6DC;
   color:#FBFAF9;
 }
-
-.footer{
-  background-color:#4BA6DC;
-  color:#FBFAF9;
-  margin:0;
-  text-align:center;
-}
-
-.footerAbout{
-  background-color:#2686C5;
-  color:#FBFAF9;
-  padding:5px;
-  display:inline;
-}
-
-.footerAbout p a{
-  color:#FBFAF9;
-}
-
-.footerAbout svg{
-  width:25%;
-  height:25%;
-}
-
 .body{
   background-color:#FBFAF9;
 }
@@ -59,7 +36,43 @@ nav.nav-center ul li a {
   margin:0;
 }
 
+.footer{
+  background-color:#4BA6DC;
+  color:#FBFAF9;
+  margin:0;
+  text-align:center;
+  vertical-align:middle;
+}
 
+/*Lowest Footer: */
+.footerAbout{
+  background-color:#2686C5;
+  color:#FBFAF9;
+  padding:5px;
+}
+
+.footerAbout span {
+  display:inline-block;
+  margin:4px;
+}
+
+.footerAbout span p {
+  display:inline-block;
+  margin:5px;
+}
+
+.footerAbout span svg {
+  vertical-align:middle;
+  margin:5px;
+}
+
+
+.footerAbout span a {
+  color:#FBFAF9;
+}
+
+
+/*Social Media Column:*/
 .socialmedia li {
   /*Creates Horizontal List:*/
   display: inline-block;
@@ -79,4 +92,26 @@ nav.nav-center ul li a {
   /*Changes size of icon:*/
   width:200%;
   height:155%;
+}
+
+/*Project Card*/
+.project{
+  background-color:#2686C5;
+  margin:15px;
+}
+
+.project h1,.project h2, .project h3,.project h4,.project h5,.project p{
+  text-align:center;
+  color:#FBFAF9;
+}
+
+.project hr{
+  color:#FBFAF9;
+  background-color:#FBFAF9;
+  border-color:#FBFAF9;
+}
+
+
+.project a {
+  color:#FBFAF9;
 }
