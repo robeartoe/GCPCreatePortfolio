@@ -1,15 +1,15 @@
 <div class="header">
   <!-- Name, Photo, Title-->
-  <div style="text-align:center">
-    <img style="width:10%; margin-top:10px;" src="http://www.robertjruiz.com/static/images/squareMe.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-    <a href="{{url_for('main')}}"><h3 style="margin-top:10px;">Robert Ruiz</h3></a>
-    <p style="">Student at CSUF</p>
+  <div>
+    <img src="{{url_for('static',filename='images/headshot.jpg')}}" alt="" class="circle responsive-img"> <!-- Photo must be square(1 X 1) -->
+    <a href="{{url_for('main')}}"><h3>John Sherman</h3></a>
+    <p>Student at CSUF</p>
   </div>
   <nav class="nav-center" role="navigation">
     <div class="nav-wrapper">
       <ul>
         <li><a href="{{url_for('about')}}">About</a></li>
-        <li><a href="badges.html">Resume</a></li>
+        <li><a href="{{url_for('static',filename='resume.pdf')}}">Resume</a></li>
         <li><a href="{{url_for('contact')}}">Contact</a></li>
       </ul>
     </div>

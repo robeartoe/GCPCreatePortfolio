@@ -7,7 +7,15 @@ p,a {
   color:black;
 }
 
+.body{
+  background-color:#FBFAF9;
+}
 
+.row{
+  margin:0;
+}
+
+/*Nav Bar:*/
 nav {
   background-color:#4BA6DC;
   padding:0;
@@ -25,6 +33,7 @@ nav.nav-center ul li a {
   display: inline-block;
 }
 
+/*Header:*/
 .header{
   background-color:#4BA6DC;
   color:#FBFAF9;
@@ -33,14 +42,21 @@ nav.nav-center ul li a {
 .header a h3 {
   color:#FBFAF9;
 }
-.body{
-  background-color:#FBFAF9;
+
+.header div{
+  text-align:center;
 }
 
-.row{
-  margin:0;
+.header div img{
+  width:10%;
+  margin-top:10px;
 }
 
+.header div a h3{
+  margin-top:10px;
+}
+
+/*Footer:*/
 .footer{
   background-color:#4BA6DC;
   color:#FBFAF9;
@@ -81,7 +97,6 @@ nav.nav-center ul li a {
 .socialmedia li {
   /*Creates Horizontal List:*/
   display: inline-block;
-
   zoom:1;
   *display:inline;
   /*Provides proper spacing for each item.*/
@@ -100,11 +115,34 @@ nav.nav-center ul li a {
   height:155%;
 }
 
+
+/*Project Card*/
+.cards-container{
+  -webkit-column-break-inside:avoid;
+  column-count:3;
+}
+
+.card {
+  display: inline-block;
+  overflow: visible;
+  background-color: #4BA6DC;
+  }
+
+.card .card-content, .card .card-content p, .card .card-content hr {
+  text-align:center;
+  color:#FBFAF9;
+  }
+
+.card .card-content hr {
+  color:#FBFAF9;
+  background-color:#FBFAF9;
+  border-color:#FBFAF9;
+}
+
 /*Project Links Row: */
 .projectLink {
   text-align:center;
 }
-
 
 .projectLink li {
   /*Creates Horizontal List:*/
@@ -115,35 +153,13 @@ nav.nav-center ul li a {
   margin: 0 15% 0 5%;
 }
 
-.projectLink li  a{
-  /*Changes color of icon:*/
-  color:#FBFAF9;
-}
-
-.projectLink li a svg{
+.projectLink li a:not(.btn) svg{
   /*Changes size of icon:*/
-  width:200%;
-  height:155%;
+  width:100%;
+  height:100%;
 }
 
-/*Project Card*/
-.project{
-  background-color:#2686C5;
-  margin:15px;
-}
-
-.project h1,.project h2, .project h3,.project h4,.project h5,.project p{
-  text-align:center;
-  color:#FBFAF9;
-}
-
-.project hr{
-  color:#FBFAF9;
-  background-color:#FBFAF9;
-  border-color:#FBFAF9;
-}
-
-
-.project a {
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating){
+  /*Changes color of Icon:*/
   color:#FBFAF9;
 }
