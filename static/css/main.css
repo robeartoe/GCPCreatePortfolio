@@ -52,6 +52,30 @@ nav.nav-center ul li a {
   margin-top:10px;
 }
 
+@media screen and (max-width: 991px) {
+  /* start of large tablet styles */
+  .header div img{
+    width:20%;
+    margin-top:10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* start of medium tablet styles */
+  .header div img{
+    width:20%;
+    margin-top:10px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
+  .header div img{
+    width:20%;
+    margin-top:10px;
+  }
+}
+
 .header div a h3{
   margin-top:10px;
 }
@@ -115,6 +139,82 @@ nav.nav-center ul li a {
   height:155%;
 }
 
+@media screen and (max-width: 991px) {
+  /* start of large tablet styles */
+
+  /*Social Media Column:*/
+  .socialmedia li {
+    /*Creates Horizontal List:*/
+    display: inline-block;
+    zoom:1;
+    *display:inline;
+    /*Provides proper spacing for each item.*/
+    margin: 0 5% 0 5%;
+
+  }
+
+  .socialmedia li  a{
+    /*Changes color of icon:*/
+    color:#4BA6DC;
+  }
+
+  .socialmedia li a svg{
+    /*Changes size of icon:*/
+    width:65%;
+    height:65%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* start of medium tablet styles */
+  /*Social Media Column:*/
+  .socialmedia li {
+    /*Creates Horizontal List:*/
+    display: inline-block;
+    zoom:1;
+    *display:inline;
+    /*Provides proper spacing for each item.*/
+    margin: 0 5% 0 5%;
+
+  }
+
+  .socialmedia li  a{
+    /*Changes color of icon:*/
+    color:#4BA6DC;
+  }
+
+  .socialmedia li a svg{
+    /*Changes size of icon:*/
+    width:55%;
+    height:55%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
+  /*Social Media Column:*/
+  .socialmedia li {
+    /*Creates Horizontal List:*/
+    display: inline-block;
+    zoom:1;
+    *display:inline;
+    /*Provides proper spacing for each item.*/
+    margin: 0 5% 0 5%;
+
+  }
+
+  .socialmedia li  a{
+    /*Changes color of icon:*/
+    color:#4BA6DC;
+  }
+
+  .socialmedia li a svg{
+    /*Changes size of icon:*/
+    width:45%;
+    height:45%;
+  }
+}
+
 
 /*Project Card*/
 .cards-container{
@@ -122,11 +222,64 @@ nav.nav-center ul li a {
   column-count:3;
 }
 
+@media screen and (max-width: 991px) {
+  /* start of large tablet styles */
+  .cards-container{
+    -webkit-column-break-inside:avoid;
+    column-count:2;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* start of medium tablet styles */
+  .cards-container{
+    -webkit-column-break-inside:avoid;
+    column-count:2;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
+  .cards-container{
+    -webkit-column-break-inside:avoid;
+    column-count:2;
+  }
+}
+
 .card {
   display: inline-block;
   overflow: visible;
   background-color: #4BA6DC;
   }
+
+@media screen and (max-width: 991px) {
+  /* start of large tablet styles */
+  .card {
+    display: inline-block;
+    overflow: visible;
+    background-color: #4BA6DC;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* start of medium tablet styles */
+  .card {
+    display: inline-block;
+    overflow: visible;
+    background-color: #4BA6DC;
+
+  }
+}
+
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
+  .card {
+    display: inline-block;
+    overflow: visible;
+    background-color: #4BA6DC;
+
+  }
+}
 
 .card .card-content, .card .card-content p, .card .card-content hr {
   text-align:center;
@@ -153,8 +306,20 @@ nav.nav-center ul li a {
   margin: 0 15% 0 5%;
 }
 
+@media screen and (max-width: 991px), (max-width: 767px),(max-width: 479px){
+  /* start of large tablet styles */
+  .projectLink li {
+    /*Creates Horizontal List:*/
+    display: inline-block;
+    zoom:1;
+    *display:inline;
+    /*Provides proper spacing for each item.*/
+    margin: 0 5% 0 5%;
+  }
+}
+
 .projectLink li a:not(.btn) svg{
-  /*Changes size of icon:*/
+  /*Changes size of icon(on most screens):*/
   width:100%;
   height:100%;
 }
@@ -163,3 +328,28 @@ nav.nav-center ul li a {
   /*Changes color of Icon:*/
   color:#FBFAF9;
 }
+
+@media screen and (max-width: 991px) {
+  /* start of large tablet styles */
+  .projectLink li a:not(.btn) svg{
+    width:40%;
+    height:40%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* start of medium tablet styles */
+  .projectLink li a:not(.btn) svg{
+    width:35%;
+    height:35%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
+  .projectLink li a:not(.btn) svg{
+    width:30%;
+    height:30%;
+  }
+}
+
