@@ -4,7 +4,7 @@ A simple portfolio template, that allows you to deploy onto the Google Cloud Pla
 [View Presentation](https://docs.google.com/presentation/d/1IUf3iY52FM8xrJGTGlLyq_ar2ltO3PJ4fKuhz7CzCog/edit?usp=sharing)
 [View Demo](https://createportfolio-215022.appspot.com/)
 ## Screenshots
-![](https://github.com/robeartoe/GCPCreatePortfolio/tree/master/images/myPortfolio.png)
+![](https://github.com/robeartoe/GCPCreatePortfolio/blob/master/images/myPortfolio.png)
 ## Getting Started
 Setup an account for the Google Cloud Platform [here](https://cloud.google.com/free/). It's free, and you can get $300 of free credit for 12 months.
 ## Prerequisites
