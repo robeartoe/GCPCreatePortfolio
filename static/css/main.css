@@ -7,8 +7,13 @@ p,a {
   color:black;
 }
 
+
 .body{
   background-color:#FBFAF9;
+  min-height: 100%;
+  min-height: -webkit-fill-available;
+  min-height: -moz-available;
+  min-height: fill-available;
 }
 
 .row{
@@ -63,6 +68,7 @@ nav.nav-center ul li a {
   margin:0;
   text-align:center;
   vertical-align:middle;
+
 }
 
 /*Lowest Footer: */
